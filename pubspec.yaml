@@ -1,0 +1,40 @@
+name: harry_potter_app
+description: Aplicación de Flutter dedicada a Harry Potter y el prisionero de Azkaban.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.5.0
+  chewie: ^1.3.1
+  cached_network_image: ^3.1.0
+  url_launcher: ^6.0.9
+  wakelock_plus: ^1.2.5
+  package_info_plus: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/intro.mp4
+    - assets/harry_potter.jpg
+    - assets/hermione_granger.jpg
+    - assets/ron_weasley.jpg
+    - assets/sirius_black.jpg
+    - assets/rescate_hipogrifo.jpg
+    - assets/hipogrifo.jpg
+    - assets/en_mi_vida.mp4
+    - assets/profile.jpg
+    - assets/miniatura.jpg
+    - assets/harry_hipogrifo.mp4
+    - assets/Dementor_vs_Harry_y_Sirius.mp4
+    - assets/harry vs dementor.jpg
+    - assets/harry_y_hermione_salvan_hipogrifo.mp4
